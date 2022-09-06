@@ -1,8 +1,7 @@
 import React from 'react';
 
 function App() {
-  return
-    null
+  return null
 }
 
 export default App;
