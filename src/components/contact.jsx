@@ -1,3 +1,5 @@
+/* eslint-disable react/self-closing-comp */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import '../contact.css';
 
@@ -13,7 +15,7 @@ function Contact() {
         <button type="submit" className="submitbtn">Get in touch with me</button>
       </form>
     </div>
-  )
+  );
 }
 
 export default Contact;

@@ -1,3 +1,6 @@
+/* eslint-disable react/jsx-one-expression-per-line */
+/* eslint-disable react/jsx-closing-tag-location */
+/* eslint-disable react/self-closing-comp */
 import React from 'react';
 import HomeIcon from '@mui/icons-material/Home';
 import PersonIcon from 'amui/icons-material/Person';
@@ -10,13 +13,14 @@ function MenuBottom() {
   return (
     <div className="menu-bottom">
       <ul className="menu-list">
-        <Link style={{textDecoration: 'none'}} to="/">
+        <Link style={{ textDecoration: 'none' }} to="/">
           <li className="menu-row">
             <div><HomeIcon /></div><div></div></li>
         </Link>
         <Link style={{ textDecoration: 'none' }} to="/about">
           <li className="menu-row">
-            <div><PersonIcon /></div><div></div></li>
+            <div><PersonIcon /></div>
+            <div></div></li>
         </Link>
         <Link style={{ textDecoration: 'none' }} to="/projects">
           <li className="menu-row">
@@ -24,7 +28,7 @@ function MenuBottom() {
             <div className="linktext"></div>
           </li>
         </Link>
-        <Link style={{textDecoration: 'none'}} to="/contact">
+        <Link style={{ textDecoration: 'none' }} to="/contact">
           <li className="menu-row">
             <div><ContactPageIcon /></div>
             <div></div>
