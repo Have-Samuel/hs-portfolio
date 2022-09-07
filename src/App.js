@@ -5,7 +5,6 @@ import About from './components/about';
 import Contact from './components/contact';
 import MenuBottom from './components/menu-bottom';
 import Projects from './components/projects-info';
-
 import './App.css';
 
 function App() {
