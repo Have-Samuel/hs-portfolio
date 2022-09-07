@@ -2,6 +2,7 @@ export const projects = [
   {
     id: 4,
     project: 'PortfolioCsT1',
+    developed_in: '',
     developed_in2: 'JavaScrip',
     description: 'Basic Portfolio Website that built with HTML, CSS and JavaScript, and shows two pages as a sample if more needed.',
     Repo: 'https://github.com/Have-Samuel/PortfolioCsT1',
@@ -11,15 +12,17 @@ export const projects = [
   {
     id: 2,
     project: 'BudgetApp',
+    developed_in: '',
     developed_in2: 'Ruby',
     description: 'A simple, user-friendly mobile iphone web application that helps you manage your funds moneybag',
-    repo: 'https://github.com/Have-Samuel/BudgetApp',
+    Repo: 'https://github.com/Have-Samuel/BudgetApp',
     Pair_Programmed: 'Yes',
     API: 'No',
   },
   {
     id: 3,
     project: 'Zuku-apartment',
+    developed_in: '',
     developed_in2: 'JS, RoR',
     description: 'Zuku Apartments is a Web application that allows users to sign in and make reservations for an apartment of their choice.',
     Repo: 'https://github.com/Have-Samuel/Zuku-apartment',
@@ -29,6 +32,7 @@ export const projects = [
   {
     id: 1,
     project: 'Animal Reserve',
+    developed_in: '',
     developed_in2: 'Reactjs',
     description: 'In this project I built a mobile web application to check a list of animals making use of React and Redux.',
     Repo: 'https://github.com/Have-Samuel/animal-reserve',
@@ -38,6 +42,7 @@ export const projects = [
   {
     id: 5,
     project: 'MM-fullWebsite',
+    developed_in: '',
     developed_in2: 'Reactjs',
     description: 'A website for all fans of mathematics.',
     Repo: 'https://github.com/Have-Samuel/MM-fullWebsite',
@@ -47,6 +52,7 @@ export const projects = [
   {
     id: 6,
     project: 'todoLT',
+    developed_in: '',
     developed_in2: 'Javascript',
     description: 'The ToDo list project, we applied the webpack and testing of the app, to see how where and solve an testing errors.',
     Repo: 'https://github.com/Have-Samuel/todoLT',
