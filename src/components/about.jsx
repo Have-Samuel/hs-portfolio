@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import '../about.css';
 
 function About() {
   return (
     <div>
-      <div className='about-text'>
-        <div className='about-container'>
+      <div className="about-text">
+        <div className="about-container">
           <img src='about-img.png' alt='about-image' className='about-image'/>
             <div className='text-container'>
               <h1 className='name'>Have Samuel</h1>
@@ -17,7 +18,7 @@ function About() {
         What makes me special is not limited to my technical skills but also means clear and effective communication is one of my core strengths.</p>
       </div>
     </div>
-  )
+  );
 }
 
 export default About;
