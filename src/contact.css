@@ -79,7 +79,7 @@ button {
 button:hover {
   background-color: #fff;
   color: orange;
-  cursor: url('/public/hand-cursor.png'), pointer;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
