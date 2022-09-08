@@ -3,9 +3,9 @@
 /* eslint-disable react/self-closing-comp */
 import React from 'react';
 import HomeIcon from '@mui/icons-material/Home';
-import PersonIcon from 'amui/icons-material/Person';
+import PersonIcon from '@mui/icons-material/Person';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
-import ContactPageIcon from '@mui/icons=material/ContactPage';
+import ContactPageIcon from '@mui/icons-material/ContactPage';
 import { Link } from 'react-router-dom';
 import '../menubottom.css';
 
