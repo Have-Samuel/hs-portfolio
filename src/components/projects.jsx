@@ -25,7 +25,7 @@ function Projects() {
                   <span className="api">API: </span>
                   <span className="api">{cards.API}</span>
                 </p>
-                <a href={cards.Repo}><button type="button" className="site">Lvie Demo</button></a>
+                <a href={cards.Repo}><button type="button" className="site">Live Demo</button></a>
               </div>
             </li>
           ))}
