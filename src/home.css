@@ -103,9 +103,9 @@
   }
 
   .home_img {
-    padding-top: 60px;
-    height: 90vh;
-    width: 32vw;
+    padding-top: 0;
+    height: 100vh;
+    width: 45vw;
     justify-items: end;
     cursor: pointer;
   }

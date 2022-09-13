@@ -9,6 +9,7 @@ function Projects() {
         <ul className="grid-container">
           {projects.map((cards) => (
             <li className="project-container" key={cards.id}>
+              {/* <img className='img-card' key={src} /> */}
               <h2 className="title">{cards.project}</h2>
               <span className="discript">{cards.description}</span>
               <div className="seperator">
