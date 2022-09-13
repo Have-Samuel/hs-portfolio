@@ -3,11 +3,11 @@
   width: 400px;
   background-color: #000;
   color: #d3d;
-  padding-top: 100px;
+  padding-top: 5rem;
   overflow: hidden;
 }
 
-ul {
+.ul-bar {
   position: fixed;
 }
 
@@ -48,26 +48,25 @@ ul {
   font-style: italic;
 }
 
-.social-media {
-  list-style: none;
-  text-decoration: none;
+.socail-media {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  list-style: none;
+  text-decoration: none;
+  gap: 1.5rem;
 }
 
-.social-media:hover {
+.socail-media:hover {
   transition: all 0.4s ease;
   font-size: 18px;
   color: orange;
 }
 
-.icon {
-  color: #fff;
+.icon a {
+  color: #d3d;
   cursor: pointer;
 }
 
-.icon:hover {
+.icon a:hover {
   color: orange;
-  cursor: pointer;
 }
