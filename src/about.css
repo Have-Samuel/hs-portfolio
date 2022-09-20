@@ -64,13 +64,14 @@
   .descript {
     border-radius: 15px;
     width: 600px;
-    background-color: #ffa500;
+    /* background-color: #ffa500; */
+    background-color: #000;
     color: #fff;
     padding: 20px;
     margin-left: 20px;
     text-align: left;
     font-weight: 900;
-    font-family: arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: relative;
   }
 
