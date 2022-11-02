@@ -103,8 +103,12 @@
   }
 
   .home_img {
+    background: url('./images/samuel.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
     padding-top: 0;
-    height: 100vh;
+    height: 90vh;
     width: 45vw;
     justify-items: end;
     cursor: pointer;
