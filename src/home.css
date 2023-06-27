@@ -1,0 +1,116 @@
+/* stylelint-disable csstree/validator */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Slab:wght@900&family=Special+Elite&display=swap');
+
+.home_img {
+  padding-top: 60px;
+  height: 90vh;
+  width: 85vw;
+  justify-items: end;
+  cursor: pointer;
+}
+
+.hello {
+  align-self: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 50px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+@keyframes typing {
+  from,
+  to { border-color: transparent; }
+  50% { border-color: orange; }
+}
+
+.name-is {
+  align-self: center;
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+  padding-top: 15px;
+  text-align: left;
+}
+
+.home-grt {
+  overflow: hidden;
+  border-right: 0.15rem solid orange;
+  font-family: 'Special Elite', cursive;
+  font-size: 25px;
+  padding-top: 15px;
+  text-align: left;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@media (min-width: 768px) {
+  body {
+    background: linear-gradient(-45deg, #1d1d1d, #d2d2d2, #d3d3d3, #4d4d4d);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    width: 98%;
+    cursor: pointer;
+  }
+
+  .home {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .hello {
+    align-self: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 50px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  @keyframes typng {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+
+  @keyframes blink-caret {
+    from,
+    to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
+
+  .name-is {
+    align-self: center;
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: left;
+  }
+
+  .home-grt {
+    overflow: hidden;
+    border-right: 0.15em solid orange;
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: left;
+    white-space: nowrap;
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s steps-end infinte;
+  }
+
+  .home_img {
+    background: url('./images/samuel.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    padding-top: 0;
+    height: 90vh;
+    width: 45vw;
+    justify-items: end;
+    cursor: pointer;
+  }
+}
