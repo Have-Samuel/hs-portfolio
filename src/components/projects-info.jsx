@@ -5,7 +5,7 @@ export const projects = [
     project: 'PortfolioCsT1',
     developed_in: 'JavaScript',
     developed_in2: 'N/A',
-    img: '../../../PortfolioCST1.png',
+    img: '../',
     description: 'Basic Portfolio Website that built with HTML, CSS and JavaScript, and shows two pages as a sample if more needed.',
     Repo: 'https://have-samuel.github.io/PortfolioCsT1/',
     Pair_Programmed: 'No',
